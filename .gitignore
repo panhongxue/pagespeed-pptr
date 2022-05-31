@@ -1,6 +1,8 @@
 .DS_Store
 node_modules
 
+pagespeed-*.json
+
 # local env files
 .env.local
 .env.*.local
