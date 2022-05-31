@@ -29,9 +29,11 @@
   },
   "dependencies": {
     "chalk": "^4.1.2",
+    "cliui": "^7.0.4",
     "commander": "^9.3.0",
     "jpegquality": "^0.1.7",
     "ora": "^5.4.1",
+    "pretty-ms-i18n": "^1.0.3",
     "puppeteer": "^14.1.2"
   }
 }
