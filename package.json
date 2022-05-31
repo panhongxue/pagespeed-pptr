@@ -1,0 +1,33 @@
+{
+  "name": "pagespeed-pptr",
+  "version": "0.0.1",
+  "description": "网页性能分析工具",
+  "scripts": {
+    "start": "node bin/pagespeed.js"
+  },
+  "bin": {
+    "pagespeed": "bin/pagespeed.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/panhongxue/pagespeed-pptr.git"
+  },
+  "keywords": [
+    "pagespeed",
+    "puppeteer",
+    "web",
+    "performance"
+  ],
+  "author": "panhongxue",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/panhongxue/pagespeed-pptr/issues"
+  },
+  "homepage": "https://github.com/panhongxue/pagespeed-pptr#readme",
+  "devDependencies": {
+    "eslint": "^8.16.0"
+  },
+  "dependencies": {
+    "puppeteer": "^14.1.2"
+  }
+}
