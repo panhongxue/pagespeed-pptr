@@ -1,6 +1,6 @@
 {
   "name": "pagespeed-pptr",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "网页性能分析工具",
   "scripts": {
     "start": "node bin/pagespeed.js"
