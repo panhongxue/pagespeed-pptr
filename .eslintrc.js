@@ -6,9 +6,11 @@ module.exports = {
   },
   extends: 'eslint:recommended',
   rules: {
-    semi: [1, 'never']
+    semi: ['warn', 'never'],
+    'no-empty': ['warn', { allowEmptyCatch: true }]
   },
   parserOptions: {
-    parser: 'babel-eslint'
+    parser: 'babel-eslint',
+    ecmaVersion: 2020
   }
 }
